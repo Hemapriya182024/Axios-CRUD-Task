@@ -24,7 +24,7 @@ const UserList = ({ users, editUser, deleteUser }) => {
               <td>{user.id}</td>
               <td>{user.name}</td>
               <td>{user.email}</td>
-              <td>{user.phone}</td>
+              <td>{user.phone}</td> 
               <td>
                 <div>
                   {/* Edit button to edit user details */}
