@@ -12,7 +12,7 @@ const UserForm = ({ addUser, updateUser, currentUser, setCurrentUser }) => {
   useEffect(() => {
     if (currentUser) {
       setName(currentUser.name);
-      setEmail(currentUser.email);
+      setEmail(currentUser.email);   
       setPhone(currentUser.phone);
     }
   }, [currentUser]);

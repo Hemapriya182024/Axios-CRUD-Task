@@ -19,7 +19,7 @@ const UserList = ({ users, editUser, deleteUser }) => {
         </thead>
         <tbody>
           {users.map(user => (
-            // Generate table rows for each user
+            // Generate table rows for each user   
             <tr key={user.id}>
               <td>{user.id}</td>
               <td>{user.name}</td>

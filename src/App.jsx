@@ -11,7 +11,7 @@ const App = () => {
   // State to store the user currently being edited
   const [currentUser, setCurrentUser] = useState(null);
 
-  // useEffect hook to fetch users when the component mounts
+  // useEffect hook to fetch users when the component mounts   
   useEffect(() => {
     fetchUsers();
   }, []);
